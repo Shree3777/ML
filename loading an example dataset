@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPwHyUcuPk8amK1G/0mDDhB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Shree3777/ML/blob/main/loading%20an%20example%20dataset\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "QkIxsaqPC1_M"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "mlMZY492DFu2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# ***`Experiment no.1 `***"
+      ],
+      "metadata": {
+        "id": "8VXljAizDMJV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn import datasets\n",
+        "iris=datasets.load_iris()\n",
+        "digits=datasets.load_digits()\n",
+        "print(digits.data)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Qp6or9fdDU-a",
+        "outputId": "58a6ffc2-42ec-4a9a-bd14-8df3265c1204"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[ 0.  0.  5. ...  0.  0.  0.]\n",
+            " [ 0.  0.  0. ... 10.  0.  0.]\n",
+            " [ 0.  0.  0. ... 16.  9.  0.]\n",
+            " ...\n",
+            " [ 0.  0.  1. ...  6.  0.  0.]\n",
+            " [ 0.  0.  2. ... 12.  0.  0.]\n",
+            " [ 0.  0. 10. ... 12.  1.  0.]]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
